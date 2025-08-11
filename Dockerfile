@@ -1,7 +1,6 @@
-
 FROM nginx:alpine
 
-COPY ./tensorpage /usr/share/nginx/html
+COPY ./tensorpage/browser /usr/share/nginx/html
 
 EXPOSE 80
 
